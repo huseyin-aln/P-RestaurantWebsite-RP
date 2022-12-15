@@ -5,7 +5,7 @@ import Turkey from "../assets/4turkey.jpeg";
 import Veggie from "../assets/5veggie.jpg";
 import Cheese from "../assets/6cheese.jpg";
 
-export const MenuList = [
+export const menuList = [
   {
     name: "Beef Burger",
     image: Beef,
