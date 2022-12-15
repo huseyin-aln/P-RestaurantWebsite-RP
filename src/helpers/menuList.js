@@ -9,31 +9,31 @@ export const menuList = [
   {
     name: "Beef Burger",
     image: Beef,
-    price: 75,
+    price: 3,
   },
   {
     name: "BlackBean Burger",
     image: Blackbean,
-    price: 70,
+    price: 2.85,
   },
   {
     name: "Chicken Burger",
     image: Chicken,
-    price: 65,
+    price: 2.65,
   },
   {
     name: "Turkey Burger",
     image: Turkey,
-    price: 90,
+    price: 3.6,
   },
   {
     name: "Veggie Burger",
     image: Veggie,
-    price: 75,
+    price: 3,
   },
   {
     name: "Cheese Burger",
     image: Cheese,
-    price: 80,
+    price: 3.25,
   },
 ];

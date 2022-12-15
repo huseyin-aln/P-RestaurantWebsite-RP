@@ -6,10 +6,10 @@ const Home = () => {
   return (
     <div className="home" style={{ backgroundImage: `url(${BannerImage})` }}>
       <div className="headerContainer">
-        <h1>Burger 33</h1>
+        <h1>Burger TIME</h1>
         <p>
           Delicious Hamburgers <br />
-          with 33 Spicy Mixed
+          with Spicy Mixed
         </p>
         <Link to="/menu">
           <button>Order Now</button>

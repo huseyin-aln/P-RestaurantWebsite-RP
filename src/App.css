@@ -7,8 +7,8 @@
 }
 
 img {
-  width: 100px;
-  height: 100px;
+  width: 60px;
+  height: 60px;
 }
 
 /* ---------- navbar ------------ */
@@ -17,7 +17,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #83e85a;
+  /* background-color: #f7ab0d; */
   padding: 5px 80px;
 }
 
@@ -27,7 +27,7 @@ img {
   color: white;
   font-size: 18px;
   font-weight: 600;
-  background-color: black;
+  background-color: #ec1e35;
   padding: 5px 10px;
   border-radius: 4px;
   transition: 0.3s;
@@ -36,18 +36,20 @@ img {
 }
 
 .navbar .rightSide a:before {
+  position: absolute;
   content: "";
   top: 0;
   left: 0;
-  position: absolute;
   width: 10%;
   height: 100%;
-  background-color: rgba(16, 122, 139, 0.5);
+  background-color: #f7ab0d;
   transition: 0.3s;
+  /* z-index: -1; */
 }
 
 .navbar .rightSide a:hover:before {
   width: 100%;
+  opacity: 0.4;
 }
 
 @media (max-width: 600px) {
@@ -87,7 +89,7 @@ img {
 
 .home {
   width: 100%;
-  height: 130vh;
+  height: calc(100vh - 80px);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -103,14 +105,14 @@ img {
 }
 
 .headerContainer h1 {
-  font-size: 90px;
+  font-size: 80px;
   height: 60px;
   font-weight: 50;
   color: white;
 }
 
 .headerContainer p {
-  font-size: 40px;
+  font-size: 30px;
   color: white;
   margin-top: 40px;
   margin-bottom: 15px;
@@ -119,7 +121,7 @@ img {
 .headerContainer button {
   width: 180px;
   height: 50px;
-  background-color: black;
+  background-color: #ec1e35;
   color: white;
   font-size: 20px;
   cursor: pointer;
@@ -136,7 +138,7 @@ img {
   left: 0;
   width: 10%;
   height: 100%;
-  background-color: #83e85a;
+  background-color: #f7ab0d;
   transition: 0.3s;
   z-index: -1;
 }
@@ -190,8 +192,8 @@ img {
 
 .footer {
   width: 100%;
-  height: 130px;
-  background-color: #83e85a;
+  height: 70px;
+  /* background-color: #f7ab0d; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -215,9 +217,9 @@ img {
 
 .menu {
   width: 100%;
-  height: 130vh;
+  /* height: 130vh; */
   text-align: center;
-  background-color: #2cb978;
+  background-color: #ec1e35;
   padding: 20px;
 }
 
@@ -234,7 +236,7 @@ img {
 }
 
 .menuItem {
-  background-color: #83e85a;
+  background-color: #f7ab0d;
   width: 350px;
   height: 350px;
   margin: 10px;
@@ -302,7 +304,7 @@ img {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: #2cb978;
+  background-color: #ec1e35;
 }
 
 .aboutTop {
